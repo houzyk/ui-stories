@@ -2,7 +2,7 @@ name: 'Storybook Deployment'
 on: push
 
 jobs:
-  test:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
